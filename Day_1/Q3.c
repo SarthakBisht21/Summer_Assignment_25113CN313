@@ -11,14 +11,14 @@ int main(){
         for(int i=1;i<=n;i++){
             fact=fact*i;
         }
-        printf("The The factorial of given no. is %d!\n",fact);
+        printf("The The factorial of given no. is %d.\n",fact);
     }
     
     else if(n==1||n==0){
-        printf("The factorial of given no. is 1!\n");
+        printf("The factorial of given no. is 1.\n");
     }
     else{
-        printf("Entered no. is invalid!\n");
+        printf("Entered no. is invalid.\n");
     }
 
     return 0;
