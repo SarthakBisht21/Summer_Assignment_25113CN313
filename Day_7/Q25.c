@@ -2,8 +2,6 @@
 
 #include <stdio.h>
 
-// Write a program to find factorial of a number using recursion.
-
 int factorial(int n) {
     if (n == 0 || n == 1) {
         return 1;
